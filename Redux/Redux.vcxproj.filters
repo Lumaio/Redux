@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{9af59011-3741-4475-8384-afe1492661ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\InterfaceManager">
+      <UniqueIdentifier>{bea0a836-9f83-44b9-aaca-d3f2d229a59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SourceEngine">
+      <UniqueIdentifier>{f121fd5c-6b23-454b-9176-cdbcae0b15f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{cb1cc181-a375-464b-b39a-2cdfe8bb3e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\DX9">
+      <UniqueIdentifier>{fb44419d-4553-4cf2-83e7-8f2d0c189802}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hooker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\Convar.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\CRC.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\SDK.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\UtlString.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\Vector.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\Vector2D.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\Vector4D.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SourceEngine\VMatrix.cpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\NetvarManager.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>ImGUI\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hooker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\InterfaceManager\dt_common.h">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\InterfaceManager\dt_recv.h">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\InterfaceManager\InterfaceManager.hpp">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\InterfaceManager\SDK.hpp">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\CGlobalVarsBase.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\CHandle.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\CInput.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\ClientClass.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Color.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Convar.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\CRC.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Definitions.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IAppSystem.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IBaseClientDll.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientEntity.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientEntityList.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientMode.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientNetworkable.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientRenderable.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientThinkable.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IClientUnknown.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IConVar.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\ICvar.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IEngineTrace.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IHandleEntity.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IPanel.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\ISurface.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IVEngineClient.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\PlayerInfo.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\QAngle.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Recv.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\SDK.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\UtlMemory.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\UtlString.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\UtlVector.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Vector.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Vector2D.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\Vector4D.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\VMatrix.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CSGOStructs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\NetvarManager.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VFTableHook.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\XorStr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SourceEngine\IInputSystem.h">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseAttributeItem.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfoClient.hpp">
+      <Filter>SDK\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>ImGUI\DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImGUI\LICENSE">
+      <Filter>ImGUI</Filter>
+    </None>
+    <None Include="ImGUI\README.md">
+      <Filter>ImGUI</Filter>
+    </None>
+  </ItemGroup>
+</Project>

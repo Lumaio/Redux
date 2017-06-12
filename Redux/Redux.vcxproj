@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD3C0D15-B0B5-4A58-9D3A-8FB4EB1FCC33}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Redux</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\..\..\Desktop\Projects\CSGO Hacks\Pedro Hack Redux\release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\..\Desktop\Projects\CSGO Hacks\Pedro Hack Redux\release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;REDUX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;REDUX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;REDUX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;REDUX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DrawManager.cpp" />
+    <ClCompile Include="hooker.cpp" />
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ImGUI\imgui.cpp" />
+    <ClCompile Include="ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SDK\NetvarManager.cpp" />
+    <ClCompile Include="SDK\SourceEngine\Convar.cpp" />
+    <ClCompile Include="SDK\SourceEngine\CRC.cpp" />
+    <ClCompile Include="SDK\SourceEngine\SDK.cpp" />
+    <ClCompile Include="SDK\SourceEngine\UtlString.cpp" />
+    <ClCompile Include="SDK\SourceEngine\Vector.cpp" />
+    <ClCompile Include="SDK\SourceEngine\Vector2D.cpp" />
+    <ClCompile Include="SDK\SourceEngine\Vector4D.cpp" />
+    <ClCompile Include="SDK\SourceEngine\VMatrix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBaseAttributeItem.hpp" />
+    <ClInclude Include="DrawManager.h" />
+    <ClInclude Include="hooker.hpp" />
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGUI\imconfig.h" />
+    <ClInclude Include="ImGUI\imgui.h" />
+    <ClInclude Include="ImGUI\imgui_internal.h" />
+    <ClInclude Include="ImGUI\stb_rect_pack.h" />
+    <ClInclude Include="ImGUI\stb_textedit.h" />
+    <ClInclude Include="ImGUI\stb_truetype.h" />
+    <ClInclude Include="interfaces.hpp" />
+    <ClInclude Include="IVModelInfoClient.hpp" />
+    <ClInclude Include="SDK\CSGOStructs.hpp" />
+    <ClInclude Include="SDK\InterfaceManager\dt_common.h" />
+    <ClInclude Include="SDK\InterfaceManager\dt_recv.h" />
+    <ClInclude Include="SDK\InterfaceManager\InterfaceManager.hpp" />
+    <ClInclude Include="SDK\InterfaceManager\SDK.hpp" />
+    <ClInclude Include="SDK\NetvarManager.hpp" />
+    <ClInclude Include="SDK\SourceEngine\CGlobalVarsBase.hpp" />
+    <ClInclude Include="SDK\SourceEngine\CHandle.hpp" />
+    <ClInclude Include="SDK\SourceEngine\CInput.hpp" />
+    <ClInclude Include="SDK\SourceEngine\ClientClass.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Color.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Convar.hpp" />
+    <ClInclude Include="SDK\SourceEngine\CRC.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Definitions.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IAppSystem.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IBaseClientDll.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientEntity.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientEntityList.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientMode.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientNetworkable.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientRenderable.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientThinkable.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IClientUnknown.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IConVar.hpp" />
+    <ClInclude Include="SDK\SourceEngine\ICvar.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IEngineTrace.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IHandleEntity.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IInputSystem.h" />
+    <ClInclude Include="SDK\SourceEngine\IPanel.hpp" />
+    <ClInclude Include="SDK\SourceEngine\ISurface.hpp" />
+    <ClInclude Include="SDK\SourceEngine\IVEngineClient.hpp" />
+    <ClInclude Include="SDK\SourceEngine\PlayerInfo.hpp" />
+    <ClInclude Include="SDK\SourceEngine\QAngle.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Recv.hpp" />
+    <ClInclude Include="SDK\SourceEngine\SDK.hpp" />
+    <ClInclude Include="SDK\SourceEngine\UtlMemory.hpp" />
+    <ClInclude Include="SDK\SourceEngine\UtlString.hpp" />
+    <ClInclude Include="SDK\SourceEngine\UtlVector.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Vector.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Vector2D.hpp" />
+    <ClInclude Include="SDK\SourceEngine\Vector4D.hpp" />
+    <ClInclude Include="SDK\SourceEngine\VMatrix.hpp" />
+    <ClInclude Include="SDK\Utils.hpp" />
+    <ClInclude Include="SDK\VFTableHook.hpp" />
+    <ClInclude Include="SDK\XorStr.hpp" />
+    <ClInclude Include="skins.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImGUI\LICENSE" />
+    <None Include="ImGUI\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  VMatrix.cpp
+  Vector4D.cpp
+  Vector2D.cpp
+  Vector.cpp
+  UtlString.cpp
+  SDK.cpp
+  CRC.cpp
+  Convar.cpp
+  NetvarManager.cpp
+  main.cpp
+  hooker.cpp
+  Generating Code...
+hooker.obj : error LNK2019: unresolved external symbol __imp___invalid_parameter referenced in function "public: bool __thiscall std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<int const ,char const *> > > >::operator==(class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<int const ,char const *> > > > const &)const " (??8?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPBD@std@@@std@@@std@@@std@@QBE_NABV01@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+NetvarManager.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+hooker.obj : error LNK2019: unresolved external symbol __imp___CrtDbgReportW referenced in function "public: bool __thiscall std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<int const ,char const *> > > >::operator==(class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<int const ,char const *> > > > const &)const " (??8?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPBD@std@@@std@@@std@@@std@@QBE_NABV01@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+NetvarManager.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp___free_dbg referenced in function "public: static void __cdecl std::_Fac_node::operator delete(void *)" (??3_Fac_node@std@@SAXPAX@Z)
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp___malloc_dbg referenced in function "public: static void * __cdecl std::_Fac_node::operator new(unsigned int)" (??2_Fac_node@std@@SAPAXI@Z)
+..\..\..\..\..\Desktop\Projects\CSGO Hacks\Pedro Hack Redux\release\Redux.dll : fatal error LNK1120: 4 unresolved externals
